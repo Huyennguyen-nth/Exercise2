@@ -5,6 +5,8 @@
         <title>This is a title</title>
     </head>
     <body>
+
+
         <h1>Lists</h1>
         <ol>
             <li>Item one</li>
@@ -18,16 +20,78 @@
             </ul>
         </ol>
 
+
         <h1>Divs and Spans</h1>
         <div class="groupone">
             <h1>Group one</h1>
             <p>I want to <span>be together in</span> group one</p>
         </div>
 
+
         <h1>Attributes</h1>
-        <img src="E:\Picture\Saved pictures\huyen.png" alt="">
+        <img src="E:\Picture\Saved pictures\huyen.png" alt="" weight="600" height="400">
         <img src="missing.png" alt="Missing.png not found">
-        
         <a href="http://www.facebook.com">Facebook</a>
+
+
+        <table border="1">
+            <thead>
+                <th>Number</th>
+                <th>Color</th>
+                <th>Country</th>
+            </thead>
+            <tr>
+                <td>250</td>
+                <td>Red</td>
+                <td>USA</td>
+            </tr>
+            <tr>
+                <td>100</td>
+                <td>Blue</td>
+                <td>France</td>
+            </tr>
+        </table>
+
+
+        <form action="http://www.facebook.com" method="get">
+            <h1>Log In</h1>
+            <h2>Please input your Email and Password</h2>
+            <input type="email" name="useremail" value="Email Here">
+            <input type="password" name="password" value="">
+            <input type="submit" name="" value="Click Me">
+        </form>
+        <form>
+            <label for="userinput">Enter Input:</label>
+            <input id="userinput" type="text" name="" placeholder="Enter Email Here" required>
+            <label for="">
+                <input type="text" name="" value="Block two">
+            </label>
+        <input type="text" name="" placeholder="not required">
+        <input type="submit" name="" value="Submit">
+        </form>
+
+
+        <h1>Hotel Feedback Form</h1>
+        <form get="">
+
+            <h2>Are you from inside the US? Or outside the US?</h2>
+            <label for="inusa">Inside: </label>
+            <input id= "inusa" type="radio" name="loc" value="">
+
+            <label for="outusa">Outside: </label>
+            <input id="outside" type="radio" name="loc" value="">
+
+            <h2>How was your service?</h2>
+            <select name="stars">
+                <option value="Great">3</option>
+                <option value="Okay">2</option>
+                <option value="Bad">1</option>
+            </select>
+
+            <h2>Any other feedback?</h2>
+            <textarea name="mytext" cols="80" rows="8"></textarea>
+            <input type="text" name="" value="">
+            <input type="submit" name="" value="Submit">
+        </form>
     </body>
 </html>
