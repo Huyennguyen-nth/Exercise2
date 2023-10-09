@@ -1,0 +1,70 @@
+/*selected tag{
+    property: value;
+}*/
+
+/* Part1 */
+/* h1{
+    color:red;
+}
+li{
+    color: rgb(255, 97, 0);
+}
+p{
+    color: #0895a8;
+}
+h4{
+    color: rgba(255, 97, 0,1)
+} */
+/* Part2
+/* body{
+    background: url(https://hips.hearstapps.com/hmg-prod/images/champagne-beach-espiritu-santo-island-vanuatu-royalty-free-image-1655672510.jpg?crop=1.00xw:0.755xh;0,0.173xh&resize=1200:*);
+    background-repeat: repeat;
+}
+div{
+    background: blue;
+    border-color:orange;
+    border-width: 4px;
+    border-style: double;
+}
+p{
+    color: yellow;
+}
+span{
+    background: red;
+    color: black;
+} */
+
+/* Part3 */
+/* .firstDiv{
+    color: blue;
+}
+.secondDiv{
+    color: red;
+}
+#singledout{
+    color: green;
+    text-decoration: line-through;
+}
+h3 + ul{
+    border: 4px dotted purple;
+}
+li a{
+    color: red
+}
+li a[herf="www.eff.org"]{
+    color: red;
+    border-width: 10px; 
+    border-style: solid;
+    border-color:  orange;
+} */
+
+/* Part5 */
+li{
+    color: red;
+}
+.topitems{
+    color: blue;
+}
+#two{
+    border: 3px solid black;
+}
