@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+}
+.art{
+    margin: auto;
+}
+td{
+    background-color: black;
+    height: 300px;
+    width: 150px;
+}
+#one{
+    background-color: grey;
+}
+#two{
+    background-color: green;
+}
+#three{
+    background-color: blueviolet;
+}
+#four{
+    background-color: orange;
+}
+#five{
+    background-color: orangered;
+}
